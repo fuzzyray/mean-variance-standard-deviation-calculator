@@ -16,13 +16,4 @@ def calculate(data_list):
         "sum": [list(np.sum(matrix, axis=0)), list(np.sum(matrix, axis=1)), float(np.sum(matrix))],
     }
 
-    # calculations = {
-    #     'mean': [axis1, axis2, flattened],
-    #     'variance': [axis1, axis2, flattened],
-    #     'standard deviation': [axis1, axis2, flattened],
-    #     'max': [axis1, axis2, flattened],
-    #     'min': [axis1, axis2, flattened],
-    #     'sum': [axis1, axis2, flattened]
-    # }
-
     return calculations
